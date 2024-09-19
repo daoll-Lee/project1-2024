@@ -4,6 +4,9 @@ let WeatherObject = {
             type: "GET",
             url: 'https://api.openweathermap.org/data/2.5/weather?q=london&units=metric&appid=7d96bc5108f52b80e2d9075a369b9f35',
         }).done(function(response) {
+
+            console.log(response)
+
             let wdata = response
             let exdata = response.weather[0];
 
