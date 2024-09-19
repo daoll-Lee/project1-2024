@@ -6,6 +6,7 @@ let WeatherObject = {
         }).done(function(response) {
 
             console.log(response)
+            alert(response.weather.id)
 
             let wdata = response
             let exdata = response.weather[0];
