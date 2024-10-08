@@ -14,7 +14,7 @@ function talk() {
     $.ajax({
         type: "POST",
         url: "https://api.openai.com/v1/chat/completions",
-        Headers: {
+        headers: {
             "Authorization": "Bearer " + OPENAPI_KEY
         },
         data: JSON.stringify(data),
