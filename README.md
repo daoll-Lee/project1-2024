@@ -15,4 +15,4 @@ git-config --global user.name "Lee"
 띄어쓰기 추가
 <br>
 2024-09-19     
-짱짱 잘됨
+짱짱 잘됨 welcome home
