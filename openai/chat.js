@@ -1,5 +1,4 @@
 OPENAPI_KEY = ""
-
 smodelmini = "gpt-4o-mini"
 smodel4o0 = "gpt-4o"
     // squestion = '황진이가 누구지?'
